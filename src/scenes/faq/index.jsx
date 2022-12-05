@@ -16,7 +16,7 @@ const FAQ = () => {
 
       <Accordion defaultExpanded>
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-          <Typography color={colors.blueAccent[300]} variant="h5">
+          <Typography color={colors.greenAccent[300]} variant="h5">
             What is this project about?
           </Typography>
         </AccordionSummary>
@@ -30,7 +30,7 @@ const FAQ = () => {
       </Accordion>
       <Accordion defaultExpanded>
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-          <Typography color={colors.blueAccent[300]} variant="h5">
+          <Typography color={colors.greenAccent[300]} variant="h5">
             Team Behind this project?
           </Typography>
         </AccordionSummary>
@@ -42,7 +42,7 @@ const FAQ = () => {
       </Accordion>
       <Accordion defaultExpanded>
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-          <Typography color={colors.blueAccent[300]} variant="h5">
+          <Typography color={colors.greenAccent[300]} variant="h5">
             What are the Tech Stack used in this project ?
           </Typography>
         </AccordionSummary>
@@ -55,7 +55,7 @@ const FAQ = () => {
       </Accordion>
       <Accordion defaultExpanded>
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-          <Typography color={colors.blueAccent[300]} variant="h5">
+          <Typography color={colors.greenAccent[300]} variant="h5">
             Which Modules are used in the project ?
           </Typography>
         </AccordionSummary>
@@ -69,7 +69,7 @@ const FAQ = () => {
       </Accordion>
       <Accordion defaultExpanded>
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-          <Typography color={colors.blueAccent[300]} variant="h5">
+          <Typography color={colors.greenAccent[300]} variant="h5">
             What Funtionality Does this project holds?
           </Typography>
         </AccordionSummary>
