@@ -8,6 +8,7 @@ import NotificationsOutlinedIcon from "@mui/icons-material/NotificationsOutlined
 import SettingsOutlinedIcon from "@mui/icons-material/SettingsOutlined";
 import PersonOutlinedIcon from "@mui/icons-material/PersonOutlined";
 import SearchIcon from "@mui/icons-material/Search";
+import Tooltip from "@mui/material/Tooltip";
 
 const Topbar = () => {
   const theme = useTheme();
@@ -32,20 +33,30 @@ const Topbar = () => {
       <Box display="flex">
         <IconButton onClick={colorMode.toggleColorMode}>
           {theme.palette.mode === "dark" ? (
-            <DarkModeOutlinedIcon />
+            <Tooltip title="Dark Mode">
+              <DarkModeOutlinedIcon />
+            </Tooltip>
           ) : (
-            <LightModeOutlinedIcon />
+            <Tooltip title="Light Mode">
+              <LightModeOutlinedIcon />
+            </Tooltip>
           )}
         </IconButton>
-        <IconButton>
-          <NotificationsOutlinedIcon />
-        </IconButton>
-        <IconButton>
-          <SettingsOutlinedIcon />
-        </IconButton>
-        <IconButton>
-          <PersonOutlinedIcon />
-        </IconButton>
+        <Tooltip title="Notification">
+          <IconButton>
+            <NotificationsOutlinedIcon />
+          </IconButton>
+        </Tooltip>
+        <Tooltip title="Settings">
+          <IconButton>
+            <SettingsOutlinedIcon />
+          </IconButton>
+        </Tooltip>
+        <Tooltip title="User">
+          <IconButton>
+            <PersonOutlinedIcon />
+          </IconButton>
+        </Tooltip>
       </Box>
     </Box>
   );
