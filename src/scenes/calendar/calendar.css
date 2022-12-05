@@ -1,0 +1,20 @@
+.fc .fc-list-table td,
+.fc .fc-list-day-cushion {
+  padding: 8px 14px;
+  color: black;
+  background: #4cceac;
+}
+
+.fc-direction-ltr .fc-daygrid-event.fc-event-start,
+.fc-direction-rtl .fc-daygrid-event.fc-event-end {
+  margin-left: 2px;
+  background: #3788d8;
+}
+.fc-popover-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3px 4px;
+  color: black;
+}
